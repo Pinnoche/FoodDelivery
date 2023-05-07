@@ -1,0 +1,139 @@
+.home_header{
+    display: block;
+    padding: 10px 20px;
+    background-color: #F0F0F0;
+    margin-bottom: 0;
+    position: fixed; 
+    width: 99vw;
+    left: 0.5vw;
+    right: 0.5vw;
+    z-index: 9;
+    margin-top: 1px;
+
+}
+.logo_container{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.logo{
+    display: block;
+    width: 25%;
+    cursor: pointer;
+}
+.icon{
+    /* display: none; */
+    cursor: pointer;
+}
+.menuitem_contpc{
+    display: none;
+}
+
+.socialicon{
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.social_icon{
+    padding: 5px;
+}
+.menuitem_cont{
+    display: none;
+    width: 98vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #F0F0F0;
+    left: 1vw;
+    right: 1vw;
+    z-index: 10;
+}
+.menuitem{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #252525;
+    cursor: pointer;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.menuitem:hover {
+    color: rgba(86, 89, 110, 0.61);
+}
+.close_icon {
+    margin-left: 90%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+    .home_header {
+        padding: 12px 30px;
+        width: 99vw;
+        left: 0.5vw;
+        right: 0.5vw;
+    }
+
+    .logo {
+        width: 12%;
+    }
+
+    .menuitem_cont {
+        width: 99vw;
+        left: 0.5vw;
+        right: 0.5vw;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .home_header {
+            padding: 10px 120px;
+            background-color: #F0F0F0;
+            width: 100vw;
+            left: 0vw;
+            right: 0vw;
+            margin: 0;
+        }
+    
+        .logo {
+            width: 10%;
+        }
+    
+        .icon {
+            display: none !important;
+        }
+    
+        .menuitem_contpc {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: auto;
+            text-align: center;
+        }
+        .social_icon{
+           padding: 6px;
+        }
+        .menuitem {
+            padding:0 14px;
+            font-size: 17px;
+            font-weight: 300;
+        }
+    
+        .socialicon {
+            padding-left: 5px;
+            padding-top: 6px;
+        }
+    
+        .menuitem_cont {
+            display: none !important;
+        }
+    
+        .close_icon {
+            display: none;
+        }
+        
+}

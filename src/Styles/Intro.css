@@ -1,0 +1,246 @@
+.intro{
+    width: 100%;
+}
+.header{
+    background-color: #F0F0F0;
+    height: 60px;
+}
+.intro-content{
+    background-image: url('../Resources/images/homebackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intro_content{
+    padding: 90px 0;
+    width: 90%;
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+}
+.header-card-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #F0F0F0;
+    padding-bottom: 40px;
+}
+.foodintro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: #FDFDFD;
+    height: max-content;
+    padding-bottom: 110px;
+}
+.foodintro-content-cont{
+    width: 100%;
+    padding: 20px 0px;
+}
+.foodintro-title{
+    color: #F9561E;
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 26px;
+    line-height: 20px;
+}
+.foodintro-content1,
+.foodintro-content2{
+    width: 96%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #515151;
+    padding-bottom: 20px;
+}
+.deliveryman-cont{
+    width: 100%;
+}
+.deliveryman-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 16px;
+    color: #252525;
+    text-align: center;
+}
+.deliveryman-subhead {
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: #F9561E;
+    text-align: center;
+}
+.deliveryman{
+    display: block;
+    width: 65%;
+    height: 95%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 100%;
+}
+
+
+
+@media screen and (min-width: 480px) {
+    .header {
+            height: 70px;
+        }
+
+        .intro_content {
+            padding: 120px 0;
+            width: 85%;
+        }
+    
+        .header-card-cont {
+            width: 90%;
+            margin: auto;
+            padding-bottom: 50px;
+        }
+.foodintro {
+
+    padding: 40px 70px;
+    background-color: #FDFDFD;
+}
+
+.foodintro-content-cont {
+    width: 45%;
+    padding: 20px 0px;
+}
+
+.foodintro-content1,
+.foodintro-content2 {
+    width: 96%;
+}
+
+.deliveryman-cont {
+    width: 45%;
+    padding: 20px 0px;
+}
+
+.deliveryman-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 16px;
+    color: #252525;
+    text-align: center;
+}
+
+.deliveryman-subhead {
+    padding-bottom: 40px;
+
+}
+
+.deliveryman {
+    width: 80%;
+    height: 60%;
+}
+}
+
+
+
+
+@media screen and (min-width: 769px) {
+.intro {
+    background-image: url('../Resources/images/homebackground.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 120px;
+    }
+
+    .header {
+        background-color: none;
+        height: 60px;
+    }
+.intro-content {
+    background-image: none;
+}
+    .intro_content {
+        padding: 170px 0;
+        padding-bottom:150px ;
+        width: 75%;
+        margin: auto;
+        color: #FFFFFF;
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 54px;
+        text-align: center;
+    }
+
+    .header-card-cont {
+        width: 85%;
+        background-color: rgba(255, 228, 196, 0);
+    }
+.foodintro {
+    justify-content: center;
+    padding: 70px;
+
+}
+
+.foodintro-content-cont {
+    width: 32%;
+    padding: 20px 0px;
+    margin-right: 10%;
+}
+
+.foodintro-title {
+    font-size: 54px;
+    font-weight: 700;
+    padding-bottom: 26px;
+    line-height: 60px;
+}
+
+.foodintro-content1,
+.foodintro-content2 {
+    width: 96%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+.deliveryman-cont {
+    width: 40%;
+}
+
+.deliveryman-title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 36px;
+
+}
+
+.deliveryman-subhead {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 50px;
+}
+
+.deliveryman {
+    display: block;
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 100%;
+}
+.deskbg1{
+    background-color: #F07B54 !important;
+}
+.deskbg2 {
+    background-color: #F29F43 !important;
+}
+}

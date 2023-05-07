@@ -1,0 +1,136 @@
+.footer{
+    background-color: #252525;
+    padding: 40px 20px;
+}
+.footer-nav{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.navitem{
+    width: max-content;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    color: #FFFFFF;
+    transition: color 0.5s;
+    cursor: pointer;
+    margin: 0 8px;
+    text-decoration: none;
+}
+.navitem:hover{
+color: #afafafe5;
+}
+.footer-social{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+.social_item{
+    padding: 2px 4px;
+    border-radius: 50%;
+    background-image: linear-gradient(#ff9621,#ff4f15);
+    color: #FFFFFF;
+    margin: 0 6px;
+}
+
+.footer-logo{
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 55px;
+}
+.footer-social-desk {
+    display: none;
+}
+
+
+@media screen and (min-width: 480px){
+.footer-logo {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .footer {
+        padding: 70px;
+    }
+
+    .footer-nav {
+        width: 60%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+
+    .navitem {
+        width: max-content;
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .navitem:hover {
+        color: #afafafe5;
+    }
+
+    .footer-other{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-social{
+        display: none;
+    }
+    .footer-social-desk {
+        width: 20%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 45%;
+    }
+
+    .social_item {
+        padding: 6px 8px;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+
+    .footer-logo {
+        display: block;
+        width: 10%;
+        margin: 0;
+    }
+
+    .copyright {
+        width: 25%;
+        color: #FFFFFF;
+        font-size: 17px;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 0;
+    }
+}

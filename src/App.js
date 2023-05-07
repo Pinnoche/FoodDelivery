@@ -1,24 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import HomePage from './Pages/HomePage';
+import Footer from './Components/Footer';
+import MenuPage from './Pages/MenuPage';
+import OrderPage from './Pages/OrderPage';
+import Backtotop from './Components/Backtotop';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { createContext, useMemo, useState } from 'react';
+
+
+
+export const UserContext = createContext();
 
 function App() {
+
+  const [home, setHome] = useState(true)
+  const value = { home, setHome };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UserContext.Provider value={value}>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Header />}>
+              <Route index element={<HomePage />} />
+              <Route path='menu' element={<MenuPage />} />
+              <Route path='order' element={<OrderPage />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+        
+        
+      </UserContext.Provider>
     </div>
+    
+      
   );
 }
 

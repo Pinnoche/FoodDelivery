@@ -1,0 +1,12 @@
+.backtotop {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 6px 8px;
+    color: #F9561E;
+    background-color: #FBFCFF;
+    border-radius: 50%;
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    bottom: 4%;
+    right: 2%;
+}
