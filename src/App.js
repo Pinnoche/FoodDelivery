@@ -1,12 +1,10 @@
 import './App.css';
 import Header from './Components/Header';
 import HomePage from './Pages/HomePage';
-import Footer from './Components/Footer';
 import MenuPage from './Pages/MenuPage';
 import OrderPage from './Pages/OrderPage';
-import Backtotop from './Components/Backtotop';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { createContext, useMemo, useState } from 'react';
+import { createContext, useState } from 'react';
 
 
 

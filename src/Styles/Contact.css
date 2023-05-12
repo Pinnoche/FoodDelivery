@@ -27,6 +27,7 @@
     color: #fff;
 }
 .order-button{
+    cursor: pointer;
     font-size: 13px;
     font-weight: 500;
     line-height: 16px;
@@ -37,10 +38,21 @@
     margin: auto;
     border-radius: 30px ;
     background-image: linear-gradient(#FF9621,#F9561E);
+    background-image: -o-linear-gradient(#FF9621, #F9561E);
+    background-image: -moz-linear-gradient(#FF9621, #F9561E);
+    background-image: -webkit-linear-gradient(#FF9621, #F9561E);
     margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.order-button:hover{
+    background-image: linear-gradient(#F9561E, #FF9621);
+    background-image: -o-linear-gradient(#F9561E, #FF9621);
+    background-image: -moz-linear-gradient(#F9561E, #FF9621);
+    background-image: -webkit-linear-gradient(#F9561E, #FF9621);
 }
 
 .menu-button{
+    cursor: pointer;
     font-size: 13px;
     font-weight: 500;
     line-height: 16px;
@@ -50,7 +62,16 @@
     margin: auto;
     border-radius: 30px;
     background-image: linear-gradient(#FCFCFC, #F0F0F0);
+    background-image: -o-linear-gradient(#FCFCFC,#F0F0F0);
+    background-image: -moz-linear-gradient(#FCFCFC,#F0F0F0);
+    background-image: -webkit-linear-gradient(#FCFCFC,#F0F0F0);
     margin-bottom: 20px;
+}
+.menu-button{
+    background-image: linear-gradient(#F0F0F0, #FCFCFC);
+    background-image: -o-linear-gradient(#F0F0F0, #FCFCFC);
+    background-image: -moz-linear-gradient(#F0F0F0, #FCFCFC);
+    background-image: -webkit-linear-gradient(#F0F0F0, #FCFCFC);
 }
 
 .today-deal{

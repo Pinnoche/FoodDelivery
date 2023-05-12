@@ -1,6 +1,7 @@
 import React from 'react';
-import Card from './Card'
-import deliveryman from '../Resources/images/deliveryman.jpg'
+import Card from './Card';
+import deliveryman from '../Resources/images/deliveryman.jpg';
+import { Navigate, useNavigate } from "react-router-dom";
 import '../Styles/Intro.css';
 
 
@@ -24,13 +25,18 @@ export const Dealview = () => {
 }
 
 
-const cardData = [
+
+function Intro(props) {
+    const navigate = useNavigate();
+    const MenuLocation = () => navigate('/menu');
+
+    const cardData = [
     {
         title: "Menu",
         content: 'Over 200 meals including healthy and fast food.',
         bgcolor: '#F77548',
         class: "deskbg1 header-card",
-        clickFunction:''
+        clickFunction: MenuLocation
     },
     {
         title: "Best Offers",
@@ -47,8 +53,8 @@ const cardData = [
         clickFunction: Dealview
     }
 ]
+    
 
-function Intro(props) {
     return (
         <>
             <div className='intro'>
