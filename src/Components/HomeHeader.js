@@ -41,7 +41,7 @@ function HomeHeader(props) {
                 <MenuIcon onClick={displayMenu}  className='icon' />
                  <div className="menuitem_contpc">
                     <p  >
-                        <Link to='/' className="menuitem">Home</Link>
+                        <Link to='/'  className="menuitem">Home</Link>
                     </p>
                     <p  >
                         <Link to='menu' className="menuitem">Menu</Link>
@@ -66,7 +66,7 @@ function HomeHeader(props) {
                         <Link to='menu' className="menuitem">Menu</Link>
                     </p>
                     <p  >
-                        <Link to='order' className="menuitem">Order</Link>
+                        <Link to='order'  className="menuitem">Order</Link>
                     </p>
                     <div className='socialicon'>
                         <FacebookRoundedIcon className=' social_icon'fontSize='large'/>

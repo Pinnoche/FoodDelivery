@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import deliveryman from '../Resources/images/deliveryman.jpg';
-import { Navigate, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import '../Styles/Intro.css';
 
 
