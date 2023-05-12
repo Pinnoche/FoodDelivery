@@ -85,10 +85,10 @@ function OtherHeader(props) {
                         <Link to='/' className="menuitem1">Home</Link>
                     </p>
                     <p  >
-                        <Link to='menu' onClick={displayMenu} className="menuitem1">Menu</Link>
+                        <Link to='menu'  className="menuitem1">Menu</Link>
                     </p>
                     <p  >
-                        <Link to='order' onClick={displayMenu} className="menuitem1">Order</Link>
+                        <Link to='order' className="menuitem1">Order</Link>
                     </p>
                     <div className='social-icon1'>
                          <FacebookRoundedIcon className=' social_icon1' fontSize='large'/>
@@ -104,10 +104,10 @@ function OtherHeader(props) {
                         <Link to='/' className="menuitem1">Home</Link>
                     </p>
                     <p  >
-                        <Link to='menu' className="menuitem1">Menu</Link>
+                        <Link to='menu' onClick={displayMenu} className="menuitem1">Menu</Link>
                     </p>
                     <p  >
-                        <Link to='order' className="menuitem1">Order</Link>
+                        <Link to='order' onClick={displayMenu} className="menuitem1">Order</Link>
                     </p>
                     <div className='social-icon1'>
                         <FacebookRoundedIcon className=' social_icon1' fontSize='large'/>
