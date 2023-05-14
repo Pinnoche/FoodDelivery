@@ -9,13 +9,17 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import '../Styles/MenuPage.css';
 import MenuList from '../Components/MenuList';
+import { useNavigate } from 'react-router-dom';
 
 
 
 function MenuPage(props) {
 
     const { setHome } = useContext(UserContext);
-
+    const navigate = useNavigate();
+    const orderNavig = () => {
+        navigate('/order');
+    }
 
     useEffect(() =>{
         setHome(false)
@@ -97,7 +101,7 @@ function MenuPage(props) {
                 <h1 className="menu-order-header">
                     Call us at +382-2742-293 or order online
                 </h1>
-                <p className="menu-order-but">
+                <p className="menu-order-but" onClick={orderNavig}>
                     Order now
                 </p>
             </div>

@@ -1,0 +1,360 @@
+.order-header {
+    background-image: url('../Resources/images/orderback1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    padding-top: 170px;
+    padding-bottom: 70px;
+}
+.order-cont{
+    background-color: #FDFDFD;
+    padding: 50px 30px;
+}
+.order-msg-cont{
+    width: 95%;
+    margin: auto;
+}
+.order-msg-head{
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 30px;
+}
+.order-msg{
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.msg-br{
+    padding: 10px;
+}
+.follow-cont{
+    text-align: center;
+}
+.follow-us{
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.follow-social{
+    margin-left: 12%;
+}
+.folow-social_item{
+    color: #FC761E;
+    margin: 4px;
+}
+.order-form-cont input, .order-form-cont textarea{
+    display: block;
+    padding: 12px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 1px solid #BDBDBD;
+}
+.order-form-cont input:focus, .order-form-cont textarea:focus{
+    outline: none;
+}
+.order-form-but {
+    display: block;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    margin: auto;
+    padding: 3px 22px;
+    background-image: linear-gradient(#FF9621, #F9561E);
+    background-image: -o-linear-gradient(#FF9621, #F9561E);
+    background-image: -moz-linear-gradient(#FF9621, #F9561E);
+    background-image: -webkit-linear-gradient(#FF9621, #F9561E);
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.order-form-but:hover {
+    background-image: linear-gradient(#F9561E, #FF9621);
+    background-image: -o-linear-gradient(#F9561E, #FF9621);
+    background-image: -moz-linear-gradient(#F9561E, #FF9621);
+    background-image: -webkit-linear-gradient(#F9561E, #FF9621);
+}
+.order-contact {
+    padding: 60px 30px;
+    background-image: url('../Resources/images/orderback2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.order-contact-header {
+    width: 87%;
+    margin: auto;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+.deliveryman-cont2 {
+    background-color: #FDFDFD;
+    padding: 50px 0px;
+}
+
+.deliveryman-word-cont {
+    width: 90%;
+    margin: auto;
+}
+
+.deliveryman-word-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 30px;
+    color: #252525;
+}
+
+.deliveryman-word {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 30px;
+    width: 95%;
+    column-rule: #515151;
+}
+
+.deliveryman-img1 {
+    display: block;
+    object-fit: cover;
+    -o-object-fit: cover;
+    /* -o-object-position: 0 -20px;
+    object-position: 0 -35px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    /* height: 70vw; */
+}
+.our-contact-cont{
+    padding: 40px;
+    background-color: #F0F0F0;
+}
+.our-contact, .working-hour{
+    width: 60%;
+    margin: auto;
+    
+}
+.our-contact{
+    padding-bottom: 26px;
+}
+.contact-heading, .working-heading{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: #F9561E;
+    padding-bottom: 16px;
+}
+.contant-info,
+.working-info {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    color: #515151;
+    padding: 3px 0;
+}
+
+
+
+@media screen and (min-width: 480px) {
+    .order-header {
+        font-size: 32px;
+    }
+.order-cont {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.order-msg-cont, .order-form-cont {
+    width: 45%;
+    margin: auto;
+}
+.follow-cont {
+    text-align: left;
+}
+
+
+
+.follow-social {
+    margin-left: 0;
+}
+
+.folow-social_item {
+    margin-right: 8px;
+    margin-left: 0;
+}
+.order-form-but{
+    width: max-content;
+}
+.deliveryman-cont {
+    padding: 50px 0px;
+}
+
+.deliveryman-word-cont2 {
+    width: 85%;
+    margin: auto;
+}
+
+.deliveryman-word-title {
+    font-size: 22px;
+}
+
+.deliveryman-word {
+    font-size: 17px;
+}
+
+.deliveryman-img1 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 769px) {
+    .order-header {
+        font-size: 68px;
+        font-weight: 800;
+        padding-top: 200px;
+        padding-bottom: 70px;
+    }
+.order-form-cont {
+    width: 35%;
+    margin: auto;
+}
+.order-msg-cont{
+    width: 40%;
+}
+
+.order-msg-head{
+        font-size: 34px;
+        font-weight: 700;
+        padding-bottom: 30px;
+}
+.order-msg{
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.follow-cont{
+    text-align: left;
+}
+.follow-us{
+    font-size: 19px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.follow-social{
+    margin-left: 0;
+}
+.folow-social_item{
+    color: #FC761E;
+    margin-right: 8px;
+    margin-left: 0px;
+}
+.order-contact {
+    padding: 90px 30px;
+    background-attachment: fixed;
+
+}
+
+.order-contact-header {
+    width: 90%;
+    margin: auto;
+    font-size: 46px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+.deliveryman-cont2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.deliveryman-word-cont {
+    width: 48%;
+    margin: auto;
+    padding: 190px 30px;
+    padding-left: 70px;
+}
+
+.deliveryman-word-title {
+    font-size: 45px;
+    padding-bottom: 55px;
+    line-height: 60px;
+}
+
+.deliveryman-word {
+    font-size: 20px;
+    line-height: 27px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.deliveryman-img1 {
+    display: block;
+    object-fit:cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    width: 52%;
+    margin: 0px auto;
+    border-radius: 20px;
+    height: 700px;
+}
+.our-contact-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 80px 30%;
+}
+.our-contact {
+    padding-bottom: 0px;
+}
+.our-contact, .working-hour{
+    width: 30%;
+}
+
+.contact-heading,
+.working-heading {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    color: #F9561E;
+    padding-bottom: 18px;
+}
+
+.contant-info,
+.working-info {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    color: #515151;
+    padding: 5px 0;
+}
+}
