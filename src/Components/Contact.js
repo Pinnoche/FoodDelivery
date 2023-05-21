@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styles/Contact.css';
 import todayDeal from '../Resources/images/deal.jpg';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -13,6 +14,13 @@ const daily_deal =  {
 
 
 function Contact(props) {
+     const navigate = useNavigate();
+    const orderNavig = () => {
+        navigate('/order');
+    }
+    const MenuNavig = () => {
+        navigate('/menu');
+    }
     return (
         <div>
             <div className="order-contact">
@@ -20,8 +28,8 @@ function Contact(props) {
                 <p className='contact-content'>We've made it easier to get your desired
                     meal on time. Check the menu to order now!</p>
                 <div className="buttons">
-                    <p className="order-button">Order online</p>
-                    <p className="menu-button">Menu</p>
+                    <p className="order-button" onClick={orderNavig}>Order online</p>
+                    <p className="menu-button" onClick={MenuNavig}>Menu</p>
                 </div>
                 
             </div>
